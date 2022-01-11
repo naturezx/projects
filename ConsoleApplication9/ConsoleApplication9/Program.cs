@@ -56,7 +56,7 @@ namespace ConsoleApplication9
             }
         }
 
-        //function to swap to indices in a list
+        //function to swap two indices in a list
         public static IList<T> Swap<T>(this IList<T> list, int indexA, int indexB)
         {
             T tmp = list[indexA];
